@@ -1,0 +1,37 @@
+.background-main {
+  background-color: rgb(71, 71, 71);
+}
+
+html::-webkit-scrollbar {
+  width: 5px;
+  background: black;
+  border-radius: 5px;
+}
+html::-webkit-scrollbar-thumb {
+  width: 5px;
+  background: rgb(80, 75, 75);
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+}
+
+.text-overflow {
+  text-overflow: ellipsis;
+  transition: 0.6s;
+  font-size: 0.8em;
+}
+.text-overflow:hover {
+  text-overflow: unset;
+  overflow: visible !important;
+  font-size: 0.7em;
+}
+
+.text-justify {
+  text-align: justify !important;
+}/*# sourceMappingURL=main.css.map */
